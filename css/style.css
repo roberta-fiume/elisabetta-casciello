@@ -5,7 +5,7 @@
 .link-menu {
     text-decoration: none;
     list-style: none;
-    color: black;
+    color: white;
     font-family: 'Gaegu';
     font-size: 20px;
 }
@@ -15,6 +15,18 @@
     border-bottom: 2px solid #74D397;
     padding-bottom: 4px; 
     transition: 0.4s;
+}
+
+#link-facebook {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: 'Gaegu';
+    font-size: 20px;
+}
+
+#link-facebook:hover {
+    color: #74D397;
 }
 
 /* .link-menu:hover {
@@ -49,7 +61,8 @@ body {
     flex-direction: column;
     width: 280px;
     height: 300px;
-    background-color: #E47665;
+    background-color: black;
+    color: white;
     /* opacity: 0.5; */
     justify-content: center;
     align-items: center;
@@ -81,8 +94,8 @@ body {
 
 #div-book-appointment {
     margin-left: 20px;
-    background-color: #E47665;
-    color: black;
+    background-color: black;
+    color: white;
     display: flex;
     flex-direction: column;
     align-self: flex-start;
@@ -104,29 +117,47 @@ body {
 .div-img {
     display: flex;
     flex-direction: row;
-    background-color: lightgray;
-    width: 150px;
+    width: 250px;
     height: 60px;
     align-items: center;
-    justify-content: space-around;
-
-
+    justify-content: flex-start;
 }
 
 .img {
+    margin-right: 10px;
     width: 40px;
     height: 40px;
 }
 
 #div-contacts {
-    display: flex;
-    background-color: gray;
+    font-family: 'Gaegu';
+    font-size: 20px;
+    margin-left: 20px;
+    display: none;
+    /* background-color: #E47665; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    height: 150px;
+    width: 280px;
+    height: 160px;
+    color: white;
+    border: 1px solid #74D397;
 }
+
+#email-text:hover {
+    color: #74D397;
+
+}
+
+
+#mobile-text:hover {
+    color: #74D397;
+}
+
+
+
+
+
 
 
 
