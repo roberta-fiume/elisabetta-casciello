@@ -11,16 +11,16 @@ window.addEventListener("load", function() {
         if (divContacts.style.display === "none") {
             showDivContactsOnClick();
         } else {
-            hideDivOnClick();
+            hideDivContactsOnClick();
         }
     }
       
     function showDivContactsOnClick() {
         var divContacts = document.getElementById('div-contacts');
-        divContacts.style.display = "flex";
+        divContacts.style.display = "flex"; 
     }
 
-    function hideDivOnClick() {
+    function hideDivContactsOnClick() {
         var divContacts = document.getElementById('div-contacts');
         divContacts.style.display = "none";
     }
