@@ -16,25 +16,43 @@ body {
 }
 
 #test-title {
-    margin-top: 230px;
+    margin-top: 140px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 500px;
-    height: 100px;
+    width: 770px;
+    height: 450px;
     color: whitesmoke;
+    /* border : 1px solid #74D397; */
+}
+
+.h2-test-title {
+    font-size: 30px;
+    text-align: center;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #div-start-test {
+
+    margin-top: 0px;
     color: whitesmoke;
     /* background-color: black; */
-    font-size: 20px;
+    font-size: 23px;
     display: flex;
     align-items: center;
     justify-content: center;
     border : 1px solid #74D397;
     width: 200px;
     height: 80px;
+}
+
+#div-start-test:hover {
+    color: #74D397;
+    background-color: black;
 }
 
 
