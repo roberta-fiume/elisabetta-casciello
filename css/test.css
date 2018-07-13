@@ -1,3 +1,10 @@
+@charset "utf-8";
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
 body {
     font-family: 'Dosis';
     display: flex;
@@ -16,25 +23,87 @@ body {
 #div-test {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
     color: white;
+    /* background-color: lightgreen; */
 }
+#big-div-group-statements {
+     display: flex;
+     flex-wrap: wrap;
+    /* justify-content: center;
+    align-items: center;  */
+    width: 600px; 
+    height: 100%; 
+    /* background-color: lightpink; */
+    margin-top: 200px;
+} 
 
 .div-choose-statement {
     display: flex;
     flex-direction: column;
-    width: 700px;
-    height: 100px;
-    background-color: lightslategray;
+    width: 600px;
+    height: 300px;
+    /* background-color: lightslategray; */
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.div-statement {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-bottom:  20px;
+    align-items: flex-start;
+    width: 600px;
+    height: 330px;
+    font-size: 27px;
+    /* background-color: lightseagreen; */
 }
 
 .div-select-answer {
+    /* background-color: lightsalmon; */
+    width: 200px;
+    height: 300px;
+    font-size: 20px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+}
 
+input[type=checkbox] {
+  transform: scale(1.5);
+}
+
+input[type=checkbox] {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  cursor: pointer;
+  font-size: 17px;
+  visibility: hidden;
+}
+
+input[type=checkbox]:after {
+  content: " ";
+  background-color: black;
+  display: inline-block;
+  margin-left: 5px;
+  padding-bottom: 5px;
+  color:  #74D397;
+  width: 22px;
+  height: 22px;
+  visibility: visible;
+  border: 2px solid #74D397;
+  padding-left: 3px;
+  border-radius: 20px;
+}
+
+input[type=checkbox]:checked:after {
+  content: "\2714";
+  padding: -5px;
+  font-weight: bold;
 }
