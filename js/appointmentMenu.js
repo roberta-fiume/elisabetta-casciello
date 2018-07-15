@@ -1,30 +1,30 @@
 window.addEventListener("load", function() {
 
-    function addEventToBookAppointmentText() {
+    function addEventToBookAppointment() {
         var bookAppointment = document.getElementById('h2-booking');
-        bookAppointment.addEventListener('click', showOrHideDivContactsOnClick);
+        bookAppointment.addEventListener('click', showOrHideContactUsOnClick);
     }
 
-    function showOrHideDivContactsOnClick() {
+    function showOrHideContactUsOnClick() {
         var bookAppointment = document.getElementById('h2-booking');
         var divContacts = document.getElementById('div-contacts');
         if (divContacts.style.display === "none") {
-            showDivContactsOnClick();
+            showContactUsOnClick();
         } else {
-            hideDivContactsOnClick();
+            hideContactUsOnClick();
         }
     }
       
-    function showDivContactsOnClick() {
+    function showContactUsOnClick() {
         var divContacts = document.getElementById('div-contacts');
         divContacts.style.display = "flex"; 
     }
 
-    function hideDivContactsOnClick() {
+    function hideContactUsOnClick() {
         var divContacts = document.getElementById('div-contacts');
         divContacts.style.display = "none";
     }
 
-    addEventToBookAppointmentText();
+    addEventToBookAppointment();
       
 });
