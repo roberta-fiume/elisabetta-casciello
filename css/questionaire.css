@@ -109,3 +109,25 @@ input[type=checkbox]:checked:after {
   padding: -5px;
   font-weight: bold;
 }
+
+#div-get-result {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center !important;  
+    width: 200px;
+    height: 60px;
+    border: 1px solid #74D397;
+    margin-left: 180px;
+}
+
+#get-result-text {
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+#get-result-text:hover {
+   color: #74D397;
+}
