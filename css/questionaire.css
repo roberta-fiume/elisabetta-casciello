@@ -131,3 +131,13 @@ input[type=checkbox]:checked:after {
 #get-result-text:hover {
    color: #74D397;
 }
+
+#div-get-result-profile {
+    width: 600px;
+    height: 400px;
+    flex-wrap: wrap;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 33px;
+}
