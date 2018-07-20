@@ -53,7 +53,7 @@ body {
     height: 100%;
 }
 
-#div-menu {
+.div-menu {
     margin-right: 150px;
     margin-top: 300px;
     display: flex;
