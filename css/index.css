@@ -188,35 +188,230 @@ body {
         }
 
         .div-menu {
-            margin-right: 0px;
-        }   
-
-        #div-wrap {
-            margin-top: 300px;
+            width: 400px !important;
+            height: 500px;
+            margin-right: 0px !important;
         }
 
+        .menu {
+            width: 400px !important;
+            height: 450px;
+        }
+
+        .list-menu {
+            align-items: center;
+            display: flex;
+            height: 90px;
+        }
+
+        .link-menu {
+            font-size: 24px;
+            margin-left: 20px;
+        }
+
+        #bia-text {
+            width: 300px;
+            height: 90px;
+        }
+
+
         #div-book-appointment {
-            margin-left: 450px;
+            height: 90px;
+            width: 350px;
+            margin-left: 0px;
+            font-size: 15px;
         }
 
 
         #div-contacts {
             background-color: black;
-            margin-left: 450px;
+            margin-left: 0px !important;
+            width: 350px;
+            height: 400px;
         }
+
+        #email-text {
+            font-size: 24px;
+        }
+
+        #mobile-text {
+            font-size: 24px;
+        }
+
+        #link-facebook {
+            font-size: 24px;
+        }    
     }
 
- 
+    IPAD MINI Landscape
+      @media only screen 
+      and (max-device-width: 1024px) 
+      and (orientation: landscape) {
 
-    /* IPAD MINI Landscape */
+        .div-menu {
+            width: 300px;
+            height: 500px;
+            margin-right: 0px ;
+        }
+
+        .menu {
+            width: 300px;
+            height: 450px;
+        }
+
+        .list-menu {
+            align-items: center;
+            display: flex;
+            height: 90px;
+        }
+
+        .link-menu {
+            font-size: 24px;
+            margin-left: 20px;
+        }
+
+        #bia-text {
+            width: 300px;
+            height: 90px;
+        }
+
+
+        #div-contacts {
+            margin-left: 0px;
+            background-color: black;
+        }
+  
+      }
+      
+     
+    /* IPAD PRO POTRAIT */
     @media only screen 
-    and (min-device-width: 769px) 
+    and (min-device-width: 1024px) 
+    and (orientation: portrait) {
+
+        .div-menu {
+            width: 400px !important;
+            height: 500px;
+            margin-right: 0px !important;
+        }
+
+        .menu {
+            width: 350px !important;
+            height: 450px;
+        }
+
+        .list-menu {
+            align-items: center;
+            display: flex;
+            height: 90px;
+        }
+
+        .link-menu {
+            font-size: 24px;
+            margin-left: 20px;
+        }
+
+        #bia-text {
+            width: 300px;
+            height: 90px;
+        }
+
+        #div-book-appointment {
+            margin-left: 0px;
+            width: 350px;
+            height: 90px;
+            font-size: 15px;
+        }
+
+        #div-contacts {
+            height: 350px;
+            width: 350px;
+            background-color: black;
+            margin-left: 0px;
+            font-size: 15px;
+        }
+
+        #email-text {
+            font-size: 24px;
+        }
+
+        #mobile-text {
+            font-size: 24px;
+        }
+
+        #link-facebook {
+            font-size: 24px;
+        }    
+
+    }
+
+
+    /* IPAD PRO LANDSCAPE */
+    @media only screen 
+    and (min-device-width: 1024px) 
     and (orientation: landscape) {
+
+        .div-menu {
+            width: 600px !important;
+            height: 500px;
+            margin-right: 0px !important;
+        }
+
+        .menu {
+            width: 550px !important;
+            height: 450px;
+        }
+
+        .list-menu {
+            align-items: center;
+            display: flex;
+            width: 400px;
+            height: 90px;
+        }
+
+        .link-menu {
+            font-size: 27px;
+            margin-left: 20px;
+        }
+
+        #bia-text {
+            width: 400px;
+            height: 100px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        #div-book-appointment {
+            margin-left: 0px;
+            width: 350px;
+            height: 90px;
+            font-size: 15px;
+        }
+
+        #div-contacts {
+            height: 350px;
+            width: 350px;
+            background-color: black;
+            margin-left: 0px;
+            font-size: 15px;
+        }
+
+        #email-text {
+            font-size: 24px;
+        }
+
+        #mobile-text {
+            font-size: 24px;
+        }
+
+        #link-facebook {
+            font-size: 24px;
+        }  
+
     }
-    
-    #div-contacts {
-        background-color: black;
-    }
+
+
+  
 
 
     /* MOBILES */
