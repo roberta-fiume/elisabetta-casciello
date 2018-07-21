@@ -139,7 +139,7 @@ body {
     font-size: 20px;
     /* margin-left: 20px; */
     display: none;
-    /* background-color: #E47665; */
+     background-color: black;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -196,6 +196,7 @@ body {
         .menu {
             width: 400px !important;
             height: 450px;
+            padding-left: 0px;
         }
 
         .list-menu {
@@ -243,23 +244,27 @@ body {
         }    
     }
 
-    IPAD MINI Landscape
+    /* IPAD MINI Landscape  */
       @media only screen 
       and (max-device-width: 1024px) 
       and (orientation: landscape) {
 
         .div-menu {
-            width: 300px;
+            width: 300px !important;
             height: 500px;
             margin-right: 0px ;
         }
 
         .menu {
-            width: 300px;
+            justify-content: flex-start;
+            width: 200px;
             height: 450px;
+            margin-left: 0px !important;
+            padding-left: 0px;
         }
 
         .list-menu {
+            width: 200px;
             align-items: center;
             display: flex;
             height: 90px;
@@ -267,7 +272,7 @@ body {
 
         .link-menu {
             font-size: 24px;
-            margin-left: 20px;
+            /* margin-left: 20px; */
         }
 
         #bia-text {
@@ -281,7 +286,7 @@ body {
             background-color: black;
         }
   
-      }
+    }
       
      
     /* IPAD PRO POTRAIT */
@@ -347,8 +352,8 @@ body {
 
 
     /* IPAD PRO LANDSCAPE */
-    @media only screen 
-    and (min-device-width: 1024px) 
+    /* @media only screen 
+    and (min-device-width: 1366px) 
     and (orientation: landscape) {
 
         .div-menu {
@@ -408,15 +413,13 @@ body {
             font-size: 24px;
         }  
 
-    }
-
-
-  
+    } */
 
 
     /* MOBILES */
     @media only screen 
     and (min-device-width: 320px) {
+
         body {
             flex-direction: column-reverse;
             align-items: center;
@@ -434,13 +437,9 @@ body {
         #div-book-appointment {
             margin-top: 0px;
         }
-
-
-
-
-
     }
 
+ 
 
 
 

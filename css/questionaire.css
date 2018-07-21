@@ -208,3 +208,52 @@ input[type=checkbox]:checked:after {
     font-size: 34px;
   
 }
+
+/* MEDIA QUERIES */
+
+   /* IPAD MINI Portrait  */
+   @media only screen and (min-device-width: 768px) 
+   and (orientation: portrait) {
+
+        #big-div-group-statements {
+            width: 965px;
+        }    
+    }
+
+    /* IPAD MINI Lanscape */
+    @media only screen and (min-device-width: 1024px) 
+    and (orientation: lanscape) {
+
+        #div-test {
+            margin-left: 380px !important;
+        }
+
+        
+        .div-choose-statement {
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+
+    /* IPAD PRO POTRAIT */
+    @media only screen 
+    and (min-device-width: 1024px) 
+    and (orientation: portrait) {
+
+       
+    
+    }
+
+    /* IPAD PRO LANDSCAPE */
+    @media only screen 
+    and (min-device-width: 1366px) 
+    and (orientation: landscape) {
+
+    }
+
+    /* MOBILES */
+    @media only screen 
+    and (min-device-width: 320px) {
+
+
+    }
