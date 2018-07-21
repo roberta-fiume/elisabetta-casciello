@@ -430,12 +430,18 @@ body {
             margin-right: 0px;
         }
 
+
+
         .menu {
             width: 230px;
         }
 
         #div-book-appointment {
             margin-top: 0px;
+        }
+
+        #div-wrap {
+            margin-top: 40px;
         }
     }
 

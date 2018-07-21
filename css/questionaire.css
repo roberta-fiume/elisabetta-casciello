@@ -212,48 +212,71 @@ input[type=checkbox]:checked:after {
 /* MEDIA QUERIES */
 
    /* IPAD MINI Portrait  */
-   @media only screen and (min-device-width: 768px) 
-   and (orientation: portrait) {
+   @media only screen and (max-width: 768px) {
 
         #big-div-group-statements {
             width: 965px;
-        }    
+        }   
+        
+        #div-get-result-profile {
+        
+            font-size: 35px;
+            margin-top: 80px;
+        }
     }
 
-    /* IPAD MINI Lanscape */
-    @media only screen and (min-device-width: 1024px) 
-    and (orientation: lanscape) {
 
-        #div-test {
-            margin-left: 380px !important;
-        }
+    /* MOBILES */
+    @media only screen and (max-width: 480px) {
 
-        
         .div-choose-statement {
+            display: flex;
+            flex-direction: column;
+            width: 1000px;
+            height: 250px;
+            background-color: black;
+            opacity: 0.7;
             justify-content: space-around;
             align-items: center;
         }
-    }
+        
 
-    /* IPAD PRO POTRAIT */
-    @media only screen 
-    and (min-device-width: 1024px) 
-    and (orientation: portrait) {
+        .div-statement {
+            flex-wrap: wrap;
+            display: flex;
+            align-items: center !important;
+            justify-content: center;
+            width: 600px;
+            height: 200px;
+            font-size: 21px;
+        }
 
-       
-    
-    }
+        .div-select-answer {
+            margin-left: 80px;
+            width: 200px;
+            height: 300px;
+            font-size: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
 
-    /* IPAD PRO LANDSCAPE */
-    @media only screen 
-    and (min-device-width: 1366px) 
-    and (orientation: landscape) {
+          
+        #div-get-result-profile {
+            width: 400px;
+            font-size: 28px;
+            margin-top: 570px !important;
+        }
 
-    }
+        .div-menu {
+            margin-top: 0px;
 
-    /* MOBILES */
-    @media only screen 
-    and (min-device-width: 320px) {
+        }
 
-
+        #button-get-result {
+            margin-top: 50px;
+            margin-left: 430px;
+        }
+        
     }
